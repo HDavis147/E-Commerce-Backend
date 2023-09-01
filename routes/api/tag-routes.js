@@ -39,6 +39,8 @@ router.post('/', async (req, res) => {
   await Tag.create({
     tag_name: req.body.tag_name
   })
+  .then((tagCreated) => res.status(200).json(tagCreated))
+  .catch((err) => {res.status(400).json(err)})
 });
 
 router.put('/:id', (req, res) => {
