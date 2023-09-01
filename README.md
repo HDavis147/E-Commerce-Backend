@@ -13,7 +13,7 @@ Use "npm start server.js" to start the application locally at port 3001.
 Once the server is running, you can test CRUD operations via insomnia.
 
 
-The note e-commerce backend application walkthrough can be accessed [HERE]([https://hdavis-note-taker-0b03d6fd20f7.herokuapp.com/](https://drive.google.com/file/d/1ZsjmSucBibh46xkfd4rQ-ijGMxarw9yz/view)).
+The note e-commerce backend application walkthrough can be accessed [HERE](https://drive.google.com/file/d/1ZsjmSucBibh46xkfd4rQ-ijGMxarw9yz/view).
 
 ## Credits
 
