@@ -5,7 +5,7 @@ const { Category, Product } = require('../../models');
 
 router.get('/', async (req, res) => {
   await Category.findAll({
-    attributes: ['id', 'categoery_name'],
+    attributes: ['id', 'category_name'],
     include: [{
       model: Product,
       attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
