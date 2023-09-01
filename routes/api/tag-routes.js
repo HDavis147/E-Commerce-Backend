@@ -30,6 +30,8 @@ router.get('/:id', async (req, res) => {
       attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
     }]
   })
+  .then((tagSingle) => {res.json(tagSingle)})
+  .catch((err) => {res.json(err)})
 });
 
 router.post('/', async (req, res) => {
