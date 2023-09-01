@@ -13,6 +13,8 @@ router.get('/', async (req, res) => {
       attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
     }]
   })
+  .then((tagData) => {res.json(tagData)})
+  .catch((err) => {res.json(err)})
 });
 
 router.get('/:id', async (req, res) => {
