@@ -7,7 +7,9 @@ This application will use sequelize to manage CRUD operations via a mysql databa
 ## Usage
 
 Utilize the mysql shell (SOURCE ./db/schema.sql) to run the schema at ./db/schema.sql.
+
 Use "npm run seed" to seed the database using ./seeds/index.js.
+
 Use "npm start server.js" to start the application locally at port 3001.
 
 Once the server is running, you can test CRUD operations via insomnia.
